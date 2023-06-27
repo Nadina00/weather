@@ -1,0 +1,12 @@
+.box {
+  display: flex;
+  justify-content: center;
+ 
+}
+.condition{
+    display: flex;
+    justify-content: center;
+}
+.item{
+    margin-right: 10px;
+}

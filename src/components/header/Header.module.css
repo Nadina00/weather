@@ -1,0 +1,39 @@
+.box{
+    padding: 60px;
+   
+}
+.label{
+    margin-right: 10px;
+    border: white 2px;
+}
+.input{
+    background-color: rgb(245, 183, 220); 
+    border: 2px solid white;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-family: 'Kablammo', cursive
+}
+.input:focus,
+.input:hover{
+    border: 2px solid rgb(14, 2, 47); 
+}
+.input::placeholder{
+    color: white;
+}
+.btn{
+    border: 2px solid white;  
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(245, 183, 220); 
+    font-family: 'Kablammo', cursive
+}
+.btn:hover{
+    border: none;  
+    border-radius: 5px;
+    color: cadetblue;
+    background-color: white;   
+}
+.item{
+    margin-bottom: 20px;
+}

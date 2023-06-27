@@ -1,0 +1,36 @@
+.condition{
+    display: flex;
+    justify-content: center;
+}
+.img{
+    
+    margin-right: 10px;
+    }
+.input{
+    margin-left: 10px;
+    font-family: 'Kablammo', cursive;
+    background-color: rgb(245, 183, 220); 
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.input:focus,
+.input:hover{
+    border: 2px solid rgb(14, 2, 47); 
+}
+.input::placeholder{
+    color: white;
+}
+.btn{
+    border: 2px solid white;  
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(245, 183, 220); 
+    font-family: 'Kablammo', cursive;
+    margin-left: 10px;
+    
+}
+.btn:hover{
+    border: none;  
+    border-radius: 5px;
+    color: cadetblue;
+    background-color: white;}
