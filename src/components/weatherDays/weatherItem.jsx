@@ -30,6 +30,7 @@ export const WeatherItem = ({ forecastdayOne }) => {
           border="0"
         ></img>
       </div>
+     
     </div>
   );
 };

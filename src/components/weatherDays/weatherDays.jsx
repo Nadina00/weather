@@ -1,6 +1,6 @@
 import React from "react";
 import { useForecast } from "../../hook/forecastHook";
-import { Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useCity } from "../../hook/locationHook";
 import { WeatherItem } from "./weatherItem";
 import css from "./weatherItem.module.css";
@@ -29,7 +29,7 @@ export const WeatherDays = () => {
           ))
         )}
       </ul>
-      <Outlet />
+      <Link to={"/"}>Назад</Link>
     </div>
   );
 };

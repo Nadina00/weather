@@ -1,7 +1,7 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
-axios.defaults.baseURL = "https://api.weatherapi.com/v1/";
+axios.defaults.baseURL = "http://api.weatherapi.com/v1/";
 const REACT_APP_KEY = process.env.REACT_APP_KEY;
 
 const getWeatherCity = createAsyncThunk(
